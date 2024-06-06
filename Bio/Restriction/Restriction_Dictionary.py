@@ -16495,6 +16495,28 @@ rest_dict["NlaIII"] = {
     "uri": "https://identifiers.org/rebase:1341",
 }
 
+rest_dict["NlaIII_meth"] = {
+    "charac": (4, -4, None, None, "TATG"),
+    "compsite": "(?=(?P<NlaIII_meth>TATG))",
+    "dna": None,
+    "freq": 256.0,
+    "fst3": -4,
+    "fst5": 4,
+    "id": None,
+    "inact_temp": 65,
+    "opt_temp": 37,
+    "ovhg": 4,
+    "ovhgseq": "TATG",
+    "results": None,
+    "scd3": None,
+    "scd5": None,
+    "site": "TATG",
+    "size": 4,
+    "substrat": "DNA",
+    "suppl": ("N",),
+    "uri": None,
+}
+
 rest_dict["NlaIV"] = {
     "charac": (3, -3, None, None, "GGNNCC"),
     "compsite": "(?=(?P<NlaIV>GG..CC))",
