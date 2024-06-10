@@ -106,7 +106,7 @@ def read_enzyme_record(handle):
         raise ValueError("Unexpected end of stream")
 
 
-def load_enzyme_ids(file) -> dict[str, int]:
+def load_enzyme_ids(file):
     """Load enzyme identifiers from bairoch-format file."""
     with open(file) as in_file:
         return {
@@ -1050,6 +1050,10 @@ def standalone():
         "default behaviour (without switch): "
         "Compile the enzymes and store them in the Updates folder",
     )
+    add("--skip_build",
+        action="store_true",
+        default=False,
+        help="If true, skip the build step")
     options, args = parser.parse_args()
     return options, args
 
@@ -1057,7 +1061,8 @@ def standalone():
 if __name__ == "__main__":
     options, args = standalone()
     Builder = DictionaryBuilder()
-    Builder.build_dict()
+    if not options.skip_build:
+        Builder.build_dict()
     if options.i:
         Builder.install_dict()
     else:
