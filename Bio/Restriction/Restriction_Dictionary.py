@@ -24313,6 +24313,10 @@ typedict["type96"] = (
     ("Palindromic", "OneCut", "Ov3", "Ambiguous", "Meth_Undep", "Not_available", "AbstractCut", "RestrictionType"),
     ["ApaBI", "BsiYI", "FmuI", "HgiAI", "HgiJII", "McrI", "Nli3877I", "Psp03I", "PssI", "Tsp4CI"],
 )
+typedict["type97"] = (
+    ("NonPalindromic", "OneCut", "Ov3", "Defined", "Meth_Dep", "Commercially_available", "AbstractCut", "RestrictionType"),
+    ["NlaIII_meth"],
+)
 
 # Turn black code style on
 # fmt: on
