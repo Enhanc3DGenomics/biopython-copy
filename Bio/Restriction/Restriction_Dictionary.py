@@ -16497,7 +16497,7 @@ rest_dict["NlaIII"] = {
 
 rest_dict["NlaIII_meth"] = {
     "charac": (4, -4, None, None, "TATG"),
-    "compsite": "(?=(?P<NlaIII_meth>TATG))|(?=(?P<NlaIII_meth>CATA))",
+    "compsite": "(?=(?P<NlaIII_meth>TATG))|(?=(?P<NlaIII_meth_as>CATA))",
     "dna": None,
     "freq": 256.0,
     "fst3": -4,
