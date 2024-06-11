@@ -16497,7 +16497,7 @@ rest_dict["NlaIII"] = {
 
 rest_dict["NlaIII_meth"] = {
     "charac": (4, -4, None, None, "TATG"),
-    "compsite": "(?=(?P<NlaIII_meth>TATG))",
+    "compsite": "(?=(?P<NlaIII_meth>TATG))|(?=(?P<NlaIII_meth>CATA))",
     "dna": None,
     "freq": 256.0,
     "fst3": -4,
@@ -24276,7 +24276,7 @@ typedict["type84"] = (
 
 typedict["type89"] = (
     ("Palindromic", "OneCut", "Ov3", "Defined", "Meth_Dep", "Commercially_available", "AbstractCut", "RestrictionType"),
-    ["AatII", "ApaI", "AsiSI", "BmtI", "Cfr42I", "FseI", "HaeII", "HhaI", "KpnI", "NlaIII", "NlaIII_meth", "NsiI", "NspI", "PluTI", "PstI", "SacI", "SacII", "SbfI"],
+    ["AatII", "ApaI", "AsiSI", "BmtI", "Cfr42I", "FseI", "HaeII", "HhaI", "KpnI", "NlaIII", "NsiI", "NspI", "PluTI", "PstI", "SacI", "SacII", "SbfI"],
 )
 
 typedict["type90"] = (
