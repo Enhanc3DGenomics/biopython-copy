@@ -16297,6 +16297,28 @@ rest_dict["NdeI"] = {
     "uri": "https://identifiers.org/rebase:1312",
 }
 
+rest_dict["NdeI_meth"] = {
+    "charac": (2, -2, None, None, "TATATG"),
+    "compsite": "(?=(?P<NdeI>TATATG))", "(?=(?P<NdeI_meth>TATATG))|(?=(?P<NdeI_meth_as>CATATA))"
+    "dna": None,
+    "freq": 4096.0,
+    "fst3": -2,
+    "fst5": 2,
+    "id": 1312,
+    "inact_temp": 65,
+    "opt_temp": 37,
+    "ovhg": -2,
+    "ovhgseq": "WW",
+    "results": None,
+    "scd3": None,
+    "scd5": None,
+    "site": "CATATG",
+    "size": 6,
+    "substrat": "DNA",
+    "suppl": ("B", "J", "K", "M", "N", "Q", "R", "S", "X"),
+    "uri": "https://identifiers.org/rebase:1312",
+}
+
 rest_dict["NdeII"] = {
     "charac": (0, 0, None, None, "GATC"),
     "compsite": "(?=(?P<NdeII>GATC))",
@@ -16506,7 +16528,7 @@ rest_dict["NlaIII_meth"] = {
     "inact_temp": 65,
     "opt_temp": 37,
     "ovhg": 4,
-    "ovhgseq": "TATG",
+    "ovhgseq": "NATN",
     "results": None,
     "scd3": None,
     "scd5": None,
