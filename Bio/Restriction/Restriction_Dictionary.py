@@ -9829,6 +9829,28 @@ rest_dict["DpnII"] = {
     "uri": "https://identifiers.org/rebase:777",
 }
 
+rest_dict["DpnII_meth"] = {
+    "charac": (0, 0, None, None, "GATT"),
+    "compsite": "(?=(?P<DpnII_meth>GATT))|(?=(?P<DpnII_meth>AATC))",
+    "dna": None,
+    "freq": 256.0,
+    "fst3": 0,
+    "fst5": 0,
+    "id": 777,
+    "inact_temp": 65,
+    "opt_temp": 37,
+    "ovhg": -4,
+    "ovhgseq": "GATT",
+    "results": None,
+    "scd3": None,
+    "scd5": None,
+    "site": "GATT",
+    "size": 4,
+    "substrat": "DNA",
+    "suppl": ("N",),
+    "uri": "https://identifiers.org/rebase:777",
+}
+
 rest_dict["DraI"] = {
     "charac": (3, -3, None, None, "TTTAAA"),
     "compsite": "(?=(?P<DraI>TTTAAA))",
@@ -12881,6 +12903,28 @@ rest_dict["HindIII"] = {
     "scd3": None,
     "scd5": None,
     "site": "AAGCTT",
+    "size": 6,
+    "substrat": "DNA",
+    "suppl": ("B", "C", "I", "J", "K", "M", "N", "O", "Q", "R", "S", "V", "X", "Y"),
+    "uri": "https://identifiers.org/rebase:1151",
+}
+
+rest_dict["HindIII_meth"] = {
+    "charac": (1, -1, None, None, "AAGTTT"),
+    "compsite": "(?=(?P<HindIII_meth>AAGTTT))|(?=(?P<HindIII_meth>AAACTT))",
+    "dna": None,
+    "freq": 4096.0,
+    "fst3": -1,
+    "fst5": 1,
+    "id": 1151,
+    "inact_temp": 65,
+    "opt_temp": 37,
+    "ovhg": -4,
+    "ovhgseq": "ANNT",
+    "results": None,
+    "scd3": None,
+    "scd5": None,
+    "site": "AAGTTT",
     "size": 6,
     "substrat": "DNA",
     "suppl": ("B", "C", "I", "J", "K", "M", "N", "O", "Q", "R", "S", "V", "X", "Y"),
@@ -24040,7 +24084,7 @@ suppliers["M"] = (
 
 suppliers["N"] = (
     "New England Biolabs",
-    ["AatII", "AbaSI", "AccI", "Acc65I", "AciI", "AclI", "AcuI", "AfeI", "AflII", "AflIII", "AgeI", "AhdI", "AleI", "AluI", "AlwI", "AlwNI", "ApaI", "ApaLI", "ApeKI", "ApoI", "AscI", "AseI", "AsiSI", "AvaI", "AvaII", "AvrII", "BaeI", "BaeGI", "BamHI", "BanI", "BanII", "BbsI", "BbvI", "BbvCI", "BccI", "BceAI", "BcgI", "BciVI", "BclI", "BcoDI", "BfaI", "BfuAI", "BglI", "BglII", "BlpI", "BmgBI", "BmrI", "BmtI", "BpmI", "Bpu10I", "BpuEI", "BsaI", "BsaAI", "BsaBI", "BsaHI", "BsaJI", "BsaWI", "BsaXI", "BseRI", "BseYI", "BsgI", "BsiEI", "BsiHKAI", "BsiWI", "BslI", "BsmI", "BsmAI", "BsmBI", "BsmFI", "BsoBI", "Bsp1286I", "BspCNI", "BspDI", "BspEI", "BspHI", "BspMI", "BspQI", "BsrI", "BsrBI", "BsrDI", "BsrFI", "BsrGI", "BssHII", "BssSI", "BstAPI", "BstBI", "BstEII", "BstNI", "BstUI", "BstXI", "BstYI", "BstZ17I", "Bsu36I", "BtgI", "BtgZI", "BtsI", "BtsIMutI", "BtsCI", "Cac8I", "ClaI", "CspCI", "CviAII", "CviKI_1", "CviQI", "DdeI", "DpnI", "DpnII", "DraI", "DraIII", "DrdI", "EaeI", "EagI", "EarI", "EciI", "EcoNI", "EcoO109I", "EcoRI", "EcoRV", "Eco53kI", "Esp3I", "FatI", "FauI", "Fnu4HI", "FokI", "FseI", "FspI", "FspEI", "HaeII", "HaeIII", "HgaI", "HhaI", "HinP1I", "HincII", "HindIII", "HinfI", "HpaI", "HpaII", "HphI", "Hpy99I", "Hpy166II", "Hpy188I", "Hpy188III", "HpyAV", "HpyCH4III", "HpyCH4IV", "HpyCH4V", "KasI", "KpnI", "LpnPI", "MboI", "MboII", "MfeI", "MluI", "MluCI", "MlyI", "MmeI", "MnlI", "MscI", "MseI", "MslI", "MspI", "MspA1I", "MspJI", "MwoI", "NaeI", "NarI", "NciI", "NcoI", "NdeI", "NdeI_meth", "NgoMIV", "NheI", "NlaIII", "NlaIII_meth", "NlaIV", "NmeAIII", "NotI", "NruI", "NsiI", "NspI", "PacI", "PaeR7I", "PaqCI", "PciI", "PflFI", "PflMI", "PleI", "PluTI", "PmeI", "PmlI", "PpuMI", "PshAI", "PsiI", "PspGI", "PspOMI", "PspXI", "PstI", "PvuI", "PvuII", "RsaI", "RsrII", "SacI", "SacII", "SalI", "SapI", "Sau96I", "Sau3AI", "SbfI", "ScaI", "ScrFI", "SexAI", "SfaNI", "SfcI", "SfiI", "SfoI", "SgrAI", "SmaI", "SmlI", "SnaBI", "SpeI", "SphI", "SrfI", "SspI", "StuI", "StyI", "StyD4I", "SwaI", "TaqI", "TfiI", "TseI", "Tsp45I", "TspMI", "TspRI", "Tth111I", "XbaI", "XcmI", "XhoI", "XmaI", "XmnI", "ZraI"],
+    ["AatII", "AbaSI", "AccI", "Acc65I", "AciI", "AclI", "AcuI", "AfeI", "AflII", "AflIII", "AgeI", "AhdI", "AleI", "AluI", "AlwI", "AlwNI", "ApaI", "ApaLI", "ApeKI", "ApoI", "AscI", "AseI", "AsiSI", "AvaI", "AvaII", "AvrII", "BaeI", "BaeGI", "BamHI", "BanI", "BanII", "BbsI", "BbvI", "BbvCI", "BccI", "BceAI", "BcgI", "BciVI", "BclI", "BcoDI", "BfaI", "BfuAI", "BglI", "BglII", "BlpI", "BmgBI", "BmrI", "BmtI", "BpmI", "Bpu10I", "BpuEI", "BsaI", "BsaAI", "BsaBI", "BsaHI", "BsaJI", "BsaWI", "BsaXI", "BseRI", "BseYI", "BsgI", "BsiEI", "BsiHKAI", "BsiWI", "BslI", "BsmI", "BsmAI", "BsmBI", "BsmFI", "BsoBI", "Bsp1286I", "BspCNI", "BspDI", "BspEI", "BspHI", "BspMI", "BspQI", "BsrI", "BsrBI", "BsrDI", "BsrFI", "BsrGI", "BssHII", "BssSI", "BstAPI", "BstBI", "BstEII", "BstNI", "BstUI", "BstXI", "BstYI", "BstZ17I", "Bsu36I", "BtgI", "BtgZI", "BtsI", "BtsIMutI", "BtsCI", "Cac8I", "ClaI", "CspCI", "CviAII", "CviKI_1", "CviQI", "DdeI", "DpnI", "DpnII", "DpnII_meth", "DraI", "DraIII", "DrdI", "EaeI", "EagI", "EarI", "EciI", "EcoNI", "EcoO109I", "EcoRI", "EcoRV", "Eco53kI", "Esp3I", "FatI", "FauI", "Fnu4HI", "FokI", "FseI", "FspI", "FspEI", "HaeII", "HaeIII", "HgaI", "HhaI", "HinP1I", "HincII", "HindIII", "HinfI", "HpaI", "HpaII", "HphI", "Hpy99I", "Hpy166II", "Hpy188I", "Hpy188III", "HpyAV", "HpyCH4III", "HpyCH4IV", "HpyCH4V", "KasI", "KpnI", "LpnPI", "MboI", "MboII", "MfeI", "MluI", "MluCI", "MlyI", "MmeI", "MnlI", "MscI", "MseI", "MslI", "MspI", "MspA1I", "MspJI", "MwoI", "NaeI", "NarI", "NciI", "NcoI", "NdeI", "NdeI_meth", "NgoMIV", "NheI", "NlaIII", "NlaIII_meth", "NlaIV", "NmeAIII", "NotI", "NruI", "NsiI", "NspI", "PacI", "PaeR7I", "PaqCI", "PciI", "PflFI", "PflMI", "PleI", "PluTI", "PmeI", "PmlI", "PpuMI", "PshAI", "PsiI", "PspGI", "PspOMI", "PspXI", "PstI", "PvuI", "PvuII", "RsaI", "RsrII", "SacI", "SacII", "SalI", "SapI", "Sau96I", "Sau3AI", "SbfI", "ScaI", "ScrFI", "SexAI", "SfaNI", "SfcI", "SfiI", "SfoI", "SgrAI", "SmaI", "SmlI", "SnaBI", "SpeI", "SphI", "SrfI", "SspI", "StuI", "StyI", "StyD4I", "SwaI", "TaqI", "TfiI", "TseI", "Tsp45I", "TspMI", "TspRI", "Tth111I", "XbaI", "XcmI", "XhoI", "XmaI", "XmnI", "ZraI"],
 )
 
 suppliers["O"] = (
@@ -24337,7 +24381,7 @@ typedict["type96"] = (
 )
 typedict["type97"] = (
     ("NonPalindromic", "OneCut", "Ov3", "Defined", "Meth_Dep", "Commercially_available", "AbstractCut", "RestrictionType"),
-    ["NlaIII_meth"],
+    ["NlaIII_meth", "DpnII_meth", "HindIII_meth"],
 )
 
 # Turn black code style on
