@@ -9831,7 +9831,7 @@ rest_dict["DpnII"] = {
 
 rest_dict["DpnII_meth"] = {
     "charac": (0, 0, None, None, "GATT"),
-    "compsite": "(?=(?P<DpnII_meth>GATT))|(?=(?P<DpnII_meth>AATC))",
+    "compsite": "(?=(?P<DpnII_meth>GATT))|(?=(?P<DpnII_meth_as>AATC))",
     "dna": None,
     "freq": 256.0,
     "fst3": 0,
@@ -12911,7 +12911,7 @@ rest_dict["HindIII"] = {
 
 rest_dict["HindIII_meth"] = {
     "charac": (1, -1, None, None, "AAGTTT"),
-    "compsite": "(?=(?P<HindIII_meth>AAGTTT))|(?=(?P<HindIII_meth>AAACTT))",
+    "compsite": "(?=(?P<HindIII_meth>AAGTTT))|(?=(?P<HindIII_meth_as>AAACTT))",
     "dna": None,
     "freq": 4096.0,
     "fst3": -1,
